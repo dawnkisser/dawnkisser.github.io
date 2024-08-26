@@ -1,2 +1,80 @@
 <p>Hello 大家好</p>
 <p>我是dawnkisser，这是我的个人网站。 </p>
+<div class="welcome-container">
+    <h1 class="welcome-title">欢迎来到我的个人天地</h1>
+    <div class="welcome-content">
+        <p>亲爱的访客，很高兴您能来到我的网站！</p>
+        <p>这里是我分享思想、展示作品和与您交流的地方。</p>
+        <p>请随意浏览，希望您能在这里找到有趣的内容。</p>
+    </div>
+    <div class="welcome-features">
+        <div class="feature">
+            <i class="fas fa-book"></i>
+            <h3>我的博客</h3>
+            <p>阅读我的最新文章和想法</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-project-diagram"></i>
+            <h3>项目展示</h3>
+            <p>查看我的作品集</p>
+        </div>
+        <div class="feature">
+            <i class="fas fa-envelope"></i>
+            <h3>联系我</h3>
+            <p>有任何问题，随时与我交流</p>
+        </div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="styles.css">
+
+<style>
+    .welcome-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+    .welcome-title {
+        color: #333;
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+    .welcome-content {
+        color: #666;
+        font-size: 1.1em;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+    .welcome-features {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 40px;
+    }
+    .feature {
+        flex: 1;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        margin: 0 10px;
+        transition: all 0.3s ease;
+    }
+    .feature:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .feature i {
+        font-size: 2em;
+        color: #4a90e2;
+        margin-bottom: 10px;
+    }
+    .feature h3 {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    .feature p {
+        color: #666;
+        font-size: 0.9em;
+    }
+</style>
